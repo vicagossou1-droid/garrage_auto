@@ -7,6 +7,7 @@
     <title>@yield('title', 'AKVA-Auto - Gestion de Garage')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link href="{{ ('build/assets/app-hx5I2Xmi.css') }}" rel="stylesheet">
     <style>
         :root {
             --primary-color: #0d6efd;
@@ -225,6 +226,7 @@
         </div>
     </footer>
 
+    <script src="{{ ('build/assets/app-CKl8NZMC.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     @yield('scripts')
 </body>
