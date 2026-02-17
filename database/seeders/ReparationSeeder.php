@@ -47,8 +47,8 @@ class ReparationSeeder extends Seeder
                     'date_depot' => $dateDebut,
                     'date_fin_prevue' => $dateDebut->copy()->addDays(5),
                     'date_fin_reelle' => $dateFin,
-                    'estimation_cout' => rand(50000, 500000) / 100,
-                    'cout_final' => ($statut === 'termine' || $statut === 'livree') ? rand(50000, 500000) / 100 : null,
+                    'estimation_cout' => rand(1000, 2000000),
+                    'cout_final' => ($statut === 'termine' || $statut === 'livree') ? rand(1000, 2000000) : null,
                     'notes_admin' => 'Test',
                 ]);
 
